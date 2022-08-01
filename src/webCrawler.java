@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 public class webCrawler {
     public static void main(String[] args) throws IOException {
-        String url = "https://en.wikipedia.org/";
+        String url = ""; // insert adress 
         crawl(1, url, new ArrayList<String>());
 
     }
